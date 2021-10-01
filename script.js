@@ -44,6 +44,7 @@ setInterval(function(){
 // ------------------------------------------------------------------------------------------------------------
 // 
 // creating button for 'save button' and making it clickable
+
 $('.saveBtn').on('click', function(){
 
 	var value = $(this).siblings(".form-control").val()
