@@ -77,6 +77,7 @@ var getValue = timeBlockEl[i].textContent;
 console.log(timeBlockEl)
 console.log(getValue)
 
+
 var newMoment = moment(getValue, "HH:mm:ss")
 }
 
